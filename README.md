@@ -1,3 +1,4 @@
 # 1st-class-smit-html-css
 THIS IS MY FIRST REPOSITORY
-Author - Abdullah
+<br>
+Author- Abdullah (1st class smit html,css)
