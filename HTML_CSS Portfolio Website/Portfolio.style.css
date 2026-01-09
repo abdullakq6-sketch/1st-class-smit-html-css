@@ -1,0 +1,240 @@
+/* css variables */
+:root{
+    --title--:50px;
+    --primaryColor--:#9929fb;
+}
+ body{
+    padding: 0;
+    margin: 0;
+ } 
+
+#navbar {
+    /* border: 2px solid black; */
+    width: 100%;
+    height: 100px;
+    margin-left: 20px;
+}
+
+#logo {
+    /* --font-size--:30px  scope variable */
+    /* border: 2px solid green; */
+    display: inline-block;
+    /* float: right; */
+   /* padding: 5px 10px; */
+}
+#list {
+    /* border: 2px solid red; */
+    display: inline-block;
+    margin-left: 330px;
+}
+#list>ul{
+    display: inline-block;
+}
+#list>ul>li{
+    display: inline-block;
+    font-size: 30px;
+    font-weight: 600;
+    margin-right: 10px;
+}
+ul>li:hover{
+    background-color:#edd9fe;
+}
+ul>button{
+    padding: 10px 20px;
+    border-radius: 8px;
+    color: white;
+    border-width: none;
+    border-style: none;
+    background-color: var(--primaryColor--);
+    font-size: larger;
+}
+
+#logo>img{
+    display: inline-block;
+}
+#logo>h1{
+    display: inline-block;
+}
+#main{
+    /* border: 1px solid black; */
+    width: 100%;
+}
+#left{
+    /* border: 2px solid red; */
+    width: 49%;
+    /* height: 400px; */
+    display: inline-block;
+}
+#text>button{
+    padding: 10px 30px;
+    border-radius: 6px;
+    background-color: var(--primaryColor--);
+    color: white;
+    border: none;
+}
+#right{
+    /* border: 2px solid green; */
+    width: 49%;
+    /* height: 400px; */
+    display: inline-block;
+    vertical-align: middle;
+}
+#text{
+    /* border: 2px solid blue; */
+    margin: 70px 30px;
+    /* height: 200px; */
+    /* padding: 30px; */
+}
+#text>h1{
+    /* font-size: 60px; */
+    font-size: var(--title--);
+}
+#text>p{
+    font-size: 20px;
+}
+#right>img{
+    width: 80%;
+    /* height: 400px */
+    display: inline-block;
+}
+#title{
+    width: 50%;
+    /* border: 2px solid black; */
+    margin: 30px auto;
+    text-align: center;
+    margin-top: 60px;
+}
+#title>h1{
+font-size:var(--title--)
+}
+#title>p{
+color: rgb(171, 168, 168);
+}
+#card{
+    width: 390px;
+    border-radius: 20px;
+    border: 2px solid lightgrey;
+    display: inline-block;
+    margin: 10px;
+}
+#img{
+    width: 100%;
+}
+#img>img{
+    width: 100%;
+}
+#cardText{
+    margin: 20px 30px 20px 20px ;
+}
+#cardText>p{
+    color:  rgb(171, 168, 168);
+    
+}
+#cardText>button{
+    padding: 5px 10px;
+    border-radius: 10px;
+    border-color: lightgray;
+    background-color: transparent;
+}
+#cardText>button:hover{
+border-color: var(--primaryColor--);
+color: var(--primaryColor--);
+}
+#footer{
+    display: flex;
+    width: 100%;
+    height: 100px;
+    background-color: var(--primaryColor--);
+}
+#about {
+  padding: 40px;
+  text-align: center;
+  background-color: #f5f5f5;
+  border-radius: 10px;
+  margin: 40px auto;
+  width: 80%;
+}
+
+#about h2 {
+  font-size: 26px;
+  margin-bottom: 10px;
+}
+#about p {
+  color: #555;
+  font-size: 16px;
+  line-height: 1.6;
+}
+#experience {
+  background-color: #f5f5f5;  
+  text-align: center;         
+  padding: 40px;              
+  margin: 40px auto;          
+  width: 80%;                 
+  border-radius: 10px;        
+}
+
+#experience h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+#experience p {
+  color: #555;
+  font-size: 16px;
+  line-height: 1.6;
+}
+#skills {
+     background-color:  #f5f5f5;  
+  text-align: center;         
+  padding: 40px;              
+  margin: 40px auto;          
+  width: 80%;                 
+  border-radius: 10px; 
+}
+#skills h2{
+    font-size: 24px;
+  margin-bottom: 10px;
+}
+#skills p {
+    color: #555 ;
+  font-size: 16px;
+  line-height: 1.6;
+}
+#Projects{
+     background-color:  #f5f5f5;  
+  text-align: center;         
+  padding: 40px;              
+  margin: 40px auto;          
+  width: 80%;                 
+  border-radius: 10px; 
+}
+#Projects h2{
+    font-size: 24px;
+  margin-bottom: 10px;
+}
+#Projects p{
+    color: #555 ;
+  font-size: 16px;
+  line-height: 1.6;
+}
+footer {
+  background-color: var(--primaryColor--);
+  color:white;
+  text-align: center;
+  padding: 20px;
+}
+  
+.footer-links {
+  display: flex;                
+  justify-content: center;      
+  gap: 20px;                    
+  margin-top: 10px;
+}
+
+.footer-links a {
+  color: white;
+  text-decoration: none;
+}
+.footer-links a:hover {
+  color: var(--primaryColor--);
+}

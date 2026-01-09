@@ -1,0 +1,90 @@
+#container{
+    /* border: solid red; */
+    width: 1000px;
+    margin: 100px auto;
+}
+
+td{
+    width: 50px;
+    height: 50px;
+    border: 2px solid black;
+    /* color: white !important; */
+    text-align: center;
+}
+#thirdRow,#secondRow,#firstRow,#textRow,#emptyRow{
+    empty-cells: hide;
+}
+.numbers{
+    border: none;
+     /* color: black !important; */
+}
+/* table td {
+  color: black !important;
+} */
+#empty{
+    border: none;
+}
+.para{
+    font-size: 10px;
+}
+.centre{
+    text-align: center;
+    text-decoration-line: underline;
+    font-size: 80px;
+}
+.Green{
+    background-color: green;
+}
+.Purple{
+    background-color:purple;
+}
+.yellow{
+    background-color: yellow;
+}
+.Orange{
+    background-color: orange;
+}
+.Gray{
+    background-color: gray;
+}
+.pink{
+    background-color: rgb(232, 51, 111);
+}
+.Blue{
+    background-color: rgb(107, 107, 255)
+}
+.DarkGray{
+    background-color:rgb(49, 48, 48) ;
+}
+.red{
+    background-color: rgb(176, 255, 57);
+}
+.legend-container {
+  text-align: center;
+  margin-top: 30px;
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+}
+
+.legend-box {
+  display: inline-block;
+  width: 18px;
+  height: 18px;
+  border-radius: 4px;
+  margin: 5px;
+  vertical-align: middle;
+}
+
+.yellow { background-color: yellow; }
+.orange { background-color: orange; }
+.blue { background-color: royalblue; }
+.gray { background-color: gray; }
+.pink { background-color: deeppink; }
+.red { background-color:rgb(176, 255, 57); }
+.lightgreen { background-color: limegreen; }
+
+
+
+
+
+

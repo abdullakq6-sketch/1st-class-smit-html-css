@@ -1,0 +1,58 @@
+#item{
+    width: 200px;
+    height: 200px;
+    border: 2px solid black;
+    background-color: aqua;
+}
+#item:hover{
+    /* width: 300px; */
+    /* transition: width 2s 2s; */
+    /* transform: translate(900px); */
+    /*  This is called transition
+    Transition 3 types */
+    /*1 property */
+    /*2 duration */
+    /*3 delay */
+    transition: 1s;
+    /* transform: scale3d(0.3, 0.3, 0.3); */
+    /* transform: scaleX(1.5); */
+    /* transform: scaleY(1.5); */
+    /* transform: rotate(180deg); */
+     /* transform: rotate(360deg); */
+     /* transform: skew(20deg); */
+     /* transform: rotateZ(180deg); */
+     /* transform: rotateY(150deg); */
+     /* transform: matrix(1,2,2.5,3,0,0); */
+     animation-name: mystyles;
+     animation-duration: 1s;
+     /* animation-delay: 5s; */
+}
+.head:hover{
+    animation-name: mystyles;
+    animation-duration: 1s;
+    transition: 2s;
+    /* animation-delay: 5s; */
+}
+@keyframes mystyles{
+    /* 0%{
+        background-color: pink;
+    }
+    25%{
+        background-color: blue;
+    }
+    50%{
+        background-color: blueviolet;
+    }
+    75%{
+        background-color: red;
+    }
+    100%{
+        background-color: aqua;
+    } */
+     0%{
+      font-size: 40px;  
+    }
+    25%{
+         font-size: 100px;
+    }
+}
